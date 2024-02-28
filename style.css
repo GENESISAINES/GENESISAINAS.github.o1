@@ -1,0 +1,146 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(234, 253, 235);
+    width: 
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+header ul li {
+    display: flex;
+    margin: 29px;
+    font-size: 20px;
+    color: rgb(70, 70, 70);
+}
+
+header div img {
+    width: 100px;
+    display: flex;
+    margin: 10px 0px 10px 10px;
+}
+
+.slide {
+    margin: 10px;
+    background-color: rgb(87, 87, 205);
+}
+
+.slide img {
+    height: 400px;
+width: 300px;
+}
+
+.main1 {
+ display: flex;
+ justify-content: center;
+ background-color: rgb(222, 228, 255);
+ margin: 10px;
+
+}
+
+.mainverdad { 
+    display: flex;
+    flex-direction: row;
+} 
+
+
+.verdadmain {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    justify-content: center;
+
+}
+
+.verdadmain h1 {
+    display: flex;
+    font-size: 20px;
+    margin: 10px;
+    text-align: center;
+    background-color: rgb(255, 225, 242);
+}
+
+.verdadmain p { 
+  font-size: 15px;
+  margin: 15px;
+  text-align: justify;
+
+}
+
+.verdadmain img {
+    width: 100px;
+}
+
+
+.sup {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 10px;
+    
+
+
+}
+
+.sup h1 {
+    display: flex;
+    font-size: 20px;
+    margin: 10px;
+    text-align: center;
+    font-size: 30px;
+    background-color: rgb(255, 214, 236);
+
+}
+
+.sup p {
+    margin: 5px;
+    text-align: center;
+    font-size: 17px;
+    background-color: rgb(247, 216, 254);
+
+}
+
+.sup1 {
+     display: flex;
+    flex-direction: row;
+}
+
+.sup2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    justify-content: center;
+
+}
+
+.sup2 h1 {
+    display: flex;
+    font-size: 20px;
+    margin: 10px;
+    text-align: center;
+    background-color: rgb(201, 255, 213);
+}
+
+.sup2 p {
+    font-size: 15px;
+  margin: 15px;
+  text-align: justify;
+
+}
+
+.hide {display: none} 
+
+.show {display: block;}
